@@ -1,0 +1,108 @@
+2021-05-04T01:40:41+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 608ecf4cd9dcb
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 3e5993d8cd
+            [name] => Woo Commerce
+            [domain] => http://localhost:8888/wordpress
+            [email_address] => 18520093@gm.uit.edu.vn
+            [currency_code] => VND
+            [money_format] => ₫
+            [primary_locale] => en_US
+            [timezone] => +07:00
+            [phone] => 0937229340
+            [address] => Array
+                (
+                    [address1] => UIT
+                    [city] => Ho Chi Minh
+                    [province] => Ho Chi Minh
+                    [postal_code] => 71308
+                    [country] => VN
+                    [country_code] => VN
+                    [phone] => 0937229340
+                    [company] => Woo Commerce
+                )
+
+        )
+
+)
+
+2021-05-04T01:40:44+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 608ecf4cd9dcb
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 3e5993d8cd
+            [name] => Woo Commerce
+            [domain] => http://localhost:8888/wordpress
+            [email_address] => 18520093@gm.uit.edu.vn
+            [currency_code] => VND
+            [money_format] => ₫
+            [primary_locale] => en_US
+            [timezone] => +07:00
+            [phone] => 0937229340
+            [address] => Array
+                (
+                    [address1] => UIT
+                    [city] => Ho Chi Minh
+                    [province] => Ho Chi Minh
+                    [postal_code] => 71308
+                    [country] => VN
+                    [country_code] => VN
+                    [phone] => 0937229340
+                    [company] => Woo Commerce
+                )
+
+        )
+
+)
+
+2021-05-04T01:40:48+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 608ecf4cd9dcb
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 3e5993d8cd
+            [name] => Woo Commerce
+            [domain] => http://localhost:8888/wordpress
+            [email_address] => 18520093@gm.uit.edu.vn
+            [currency_code] => VND
+            [money_format] => ₫
+            [primary_locale] => en_US
+            [timezone] => +07:00
+            [phone] => 0937229340
+            [address] => Array
+                (
+                    [address1] => UIT
+                    [city] => Ho Chi Minh
+                    [province] => Ho Chi Minh
+                    [postal_code] => 71308
+                    [country] => VN
+                    [country_code] => VN
+                    [phone] => 0937229340
+                    [company] => Woo Commerce
+                )
+
+        )
+
+)
+
+2021-05-04T01:40:50+00:00 NOTICE mailchimp-woocommerce-sync.started :: Starting Sync :: Tue, May 4, 2021 1:40 AM
+2021-05-04T01:40:51+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons queued :: page 1
+2021-05-04T01:41:29+00:00 NOTICE coupon_sync.completed :: Done with the coupon queueing.
+2021-05-04T01:41:29+00:00 NOTICE sync.full_sync_manager.queue :: Starting PRODUCTS queueing.
+2021-05-04T01:41:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 1
+2021-05-04T01:41:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 2
+2021-05-04T01:41:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 38
+2021-05-04T01:41:31+00:00 NOTICE product_sync.completed :: Done with the product queuing
+2021-05-04T01:41:33+00:00 NOTICE product_submit.success :: addStoreProduct :: #38
+2021-05-04T01:42:01+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders queued :: page 1
+2021-05-04T01:42:03+00:00 NOTICE order_sync.completed :: Done with the order queueing.
+2021-05-04T01:42:28+00:00 NOTICE sync.completed :: Finished Sync :: Tue, May 4, 2021 1:42 AM (total time: 00:01:38)
