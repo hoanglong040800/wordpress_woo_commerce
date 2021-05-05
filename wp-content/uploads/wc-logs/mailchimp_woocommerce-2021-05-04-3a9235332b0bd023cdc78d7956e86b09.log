@@ -197,3 +197,11 @@
 2021-05-04T16:27:00+00:00 ERROR member.sync :: hoanglong040800@gmail.com :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
 2021-05-04T16:28:05+00:00 ERROR api.list :: Error retrieving list for double_optin check
 2021-05-04T16:28:07+00:00 ERROR order_submit.error :: addStoreOrder :: #125 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-04T18:46:11+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 99dfca9dd0f650546cae40a4bf934010
+2021-05-04T18:46:33+00:00 ERROR abandoned_cart.error :: email: hoanglong040800@gmail.com :: attempting product update :: API Key Invalid :: API key has been disabled
+2021-05-04T18:46:34+00:00 NOTICE product_submit.error :: addStoreProduct :: #38 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-04T18:46:34+00:00 ERROR abandoned_cart.error :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-04T18:48:16+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 99dfca9dd0f650546cae40a4bf934010
+2021-05-04T18:48:41+00:00 ERROR abandoned_cart.error :: email: hoanglong040800@gmail.com :: attempting product update :: API Key Invalid :: API key has been disabled
+2021-05-04T18:48:42+00:00 NOTICE product_submit.error :: addStoreProduct :: #38 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-04T18:48:42+00:00 ERROR abandoned_cart.error :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
