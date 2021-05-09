@@ -1,0 +1,60 @@
+2021-05-09T10:42:36+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 262
+2021-05-09T10:42:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 262
+2021-05-09T10:42:59+00:00 NOTICE product_submit.error :: addStoreProduct :: #262 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T10:43:06+00:00 NOTICE product_submit.error :: addStoreProduct :: #262 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T10:46:02+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 268
+2021-05-09T10:46:24+00:00 NOTICE product_submit.error :: addStoreProduct :: #268 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T10:47:14+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 262
+2021-05-09T10:47:39+00:00 NOTICE product_submit.error :: addStoreProduct :: #262 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T10:48:32+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 275
+2021-05-09T10:49:43+00:00 NOTICE product_submit.error :: addStoreProduct :: #275 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T10:50:03+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 281
+2021-05-09T10:50:48+00:00 NOTICE product_submit.error :: addStoreProduct :: #281 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T10:51:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 287
+2021-05-09T10:52:41+00:00 NOTICE product_submit.error :: addStoreProduct :: #287 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T10:53:22+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 294
+2021-05-09T10:53:47+00:00 NOTICE product_submit.error :: addStoreProduct :: #294 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T10:59:00+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 281
+2021-05-09T10:59:12+00:00 NOTICE product.delete_fail :: Unable to deleted product 224
+2021-05-09T10:59:18+00:00 NOTICE product.delete_fail :: Unable to deleted product 221
+2021-05-09T10:59:49+00:00 NOTICE product_submit.error :: addStoreProduct :: #281 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:00:33+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 294
+2021-05-09T11:00:42+00:00 NOTICE product_submit.error :: addStoreProduct :: #294 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:01:02+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 275
+2021-05-09T11:01:42+00:00 NOTICE product_submit.error :: addStoreProduct :: #275 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:01:58+00:00 NOTICE product.delete_fail :: Unable to deleted product 303
+2021-05-09T11:02:24+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 281
+2021-05-09T11:02:46+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 287
+2021-05-09T11:02:47+00:00 NOTICE product_submit.error :: addStoreProduct :: #281 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:02:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 294
+2021-05-09T11:03:02+00:00 NOTICE product_submit.error :: addStoreProduct :: #287 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:03:09+00:00 NOTICE product_submit.error :: addStoreProduct :: #294 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:03:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 275
+2021-05-09T11:03:15+00:00 NOTICE product_submit.error :: addStoreProduct :: #275 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:03:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 268
+2021-05-09T11:03:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 262
+2021-05-09T11:03:47+00:00 NOTICE product_submit.error :: addStoreProduct :: #268 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:03:49+00:00 NOTICE product_submit.error :: addStoreProduct :: #262 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:04:07+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 245
+2021-05-09T11:04:52+00:00 NOTICE product_submit.error :: addStoreProduct :: #245 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:06:33+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 304
+2021-05-09T11:07:00+00:00 NOTICE product_submit.error :: addStoreProduct :: #304 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:07:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 304
+2021-05-09T11:07:50+00:00 NOTICE product_submit.error :: addStoreProduct :: #304 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:08:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 310
+2021-05-09T11:08:59+00:00 NOTICE product_submit.error :: addStoreProduct :: #310 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:10:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 316
+2021-05-09T11:11:15+00:00 NOTICE product_submit.error :: addStoreProduct :: #316 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:12:45+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 324
+2021-05-09T11:13:37+00:00 NOTICE product_submit.error :: addStoreProduct :: #324 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:14:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 332
+2021-05-09T11:15:50+00:00 NOTICE product_submit.error :: addStoreProduct :: #332 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:16:30+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 337
+2021-05-09T11:17:07+00:00 NOTICE product_submit.error :: addStoreProduct :: #337 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:18:28+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 343
+2021-05-09T11:18:49+00:00 NOTICE product_submit.error :: addStoreProduct :: #343 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:20:19+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 349
+2021-05-09T11:21:25+00:00 NOTICE product_submit.error :: addStoreProduct :: #349 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:21:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 349
+2021-05-09T11:21:59+00:00 NOTICE product_submit.error :: addStoreProduct :: #349 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-09T11:23:02+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 355
