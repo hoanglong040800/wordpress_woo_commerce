@@ -8,3 +8,36 @@
 2021-05-10T13:58:54+00:00 NOTICE product_submit.error :: addStoreProduct :: #421 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
 2021-05-10T13:58:55+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 421
 2021-05-10T13:59:02+00:00 NOTICE product_submit.error :: addStoreProduct :: #421 :: Error Code 401 :: API Key Invalid :: API key has been disabled on 1858 in C:\xampp\htdocs\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-05-10T16:24:51+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 608ecf4cd9dcb
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 3e5993d8cd
+            [name] => Woo Commerce
+            [domain] => http://localhost:8888/wordpress
+            [email_address] => 18520093@gm.uit.edu.vn
+            [currency_code] => VND
+            [money_format] => ₫
+            [primary_locale] => en_US
+            [timezone] => +07:00
+            [phone] => 0937229340
+            [address] => Array
+                (
+                    [address1] => UIT
+                    [city] => Ho Chi Minh
+                    [province] => Ho Chi Minh
+                    [postal_code] => 71308
+                    [country] => VN
+                    [country_code] => VN
+                    [phone] => 0937229340
+                    [company] => Woo Commerce
+                )
+
+        )
+
+)
+
+2021-05-10T16:24:52+00:00 NOTICE store.sync@woo.update :: Store cannot be synced
