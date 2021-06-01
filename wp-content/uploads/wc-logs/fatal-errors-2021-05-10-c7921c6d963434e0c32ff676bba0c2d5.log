@@ -1,0 +1,112 @@
+2021-05-10T02:26:29+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Database error. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1620613649, 'action-schedule...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\Scheduler.php(89): as_schedule_single_action(1620613649, 'action_schedule...', Array, 'action-schedule...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\Controller.php(99): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-settings.php(582): do_action('wp_loaded')
+#10 C:\xampp\htdocs\wordpress\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-10T02:26:37+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1620613657, 'action-schedule...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\Scheduler.php(89): as_schedule_single_action(1620613657, 'action_schedule...', Array, 'action-schedule...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\Controller.php(99): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-settings.php(582): do_action('wp_loaded')
+#10 C:\xampp\htdocs\wordpress\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-10T02:26:42+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1620613662, 'action-schedule...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\Scheduler.php(89): as_schedule_single_action(1620613662, 'action_schedule...', Array, 'action-schedule...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\Controller.php(99): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-settings.php(582): do_action('wp_loaded')
+#10 C:\xampp\htdocs\wordpress\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-10T02:26:46+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1620613666, 'action-schedule...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\Scheduler.php(89): as_schedule_single_action(1620613666, 'action_schedule...', Array, 'action-schedule...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\Controller.php(99): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-settings.php(582): do_action('wp_loaded')
+#10 C:\xampp\htdocs\wordpress\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-10T02:26:46+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1620613666, 'action-schedule...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\Scheduler.php(89): as_schedule_single_action(1620613666, 'action_schedule...', Array, 'action-schedule...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\Controller.php(99): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-settings.php(582): do_action('wp_loaded')
+#10 C:\xampp\htdocs\wordpress\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-10T02:28:46+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', Array, 1620613786, 'action-schedule...')
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\Scheduler.php(89): as_schedule_single_action(1620613786, 'action_schedule...', Array, 'action-schedule...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\Controller.php(99): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Action_Scheduler\Migration\Controller->schedule_migration('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-settings.php(582): do_action('wp_loaded')
+#10 C:\xampp\htdocs\wordpress\wp-config.php(94): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\migration\ActionScheduler_DBStoreMigrator.php on line 44
+

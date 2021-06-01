@@ -1,0 +1,63 @@
+2021-05-11T04:40:27+00:00 CRITICAL Uncaught Error: Unknown named parameter $key in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-settings.php:976
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WC_SC_Settings->radio_with_html(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(679): do_action('woocommerce_adm...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\wc-admin-functions.php(150): WC_Admin_Settings::output_fields(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-settings.php(286): woocommerce_admin_fields(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WC_SC_Settings->smart_coupon_settings_page('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(41): do_action('woocommerce_set...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(153): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(273): WC_Admin_Settings::output()
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WC_Admin_Menus->settings_page('')
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\wordpress\wp-admin\admin.php(259): do_action('woocommerce_pag...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-settings.php on line 976
+
+2021-05-11T04:40:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $key in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-settings.php:976
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WC_SC_Settings->radio_with_html(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(679): do_action('woocommerce_adm...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\wc-admin-functions.php(150): WC_Admin_Settings::output_fields(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-settings.php(286): woocommerce_admin_fields(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WC_SC_Settings->smart_coupon_settings_page('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(41): do_action('woocommerce_set...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(153): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(273): WC_Admin_Settings::output()
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WC_Admin_Menus->settings_page('')
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\wordpress\wp-admin\admin.php(259): do_action('woocommerce_pag...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-settings.php on line 976
+
+2021-05-11T04:52:59+00:00 CRITICAL Uncaught Error: Unknown named parameter $key in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-settings.php:976
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WC_SC_Settings->radio_with_html(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(679): do_action('woocommerce_adm...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\wc-admin-functions.php(150): WC_Admin_Settings::output_fields(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-settings.php(286): woocommerce_admin_fields(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WC_SC_Settings->smart_coupon_settings_page('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(41): do_action('woocommerce_set...')
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(153): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(273): WC_Admin_Settings::output()
+#12 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WC_Admin_Menus->settings_page('')
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\wordpress\wp-admin\admin.php(259): do_action('woocommerce_pag...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-smart-coupons\includes\class-wc-sc-settings.php on line 976
+
